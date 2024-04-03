@@ -1,0 +1,369 @@
+body{margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+/* popup box */
+.box-popup{
+    width: 98.9vw;
+    height: 99vh;
+    background-color: rgba(0, 0, 0, 0.157);
+    position: absolute;
+    z-index: 60;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+.popup-subbox{
+    width: 50vw;
+    background-color: white;
+    height: 99vh;
+}
+/* popup box */
+
+.head-box{
+    background-image: url(../media/bg-web.png);
+    height: 750px;
+    padding: 1%;
+}
+.head{
+    margin-top: 1px;
+    display: flex;
+    justify-content:space-between;
+}
+
+/* hideen nav bar */
+.hidden-nav{
+    background-image: url(../media/pattern2.png);
+    width: 20%;
+    height: 726px;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    z-index: 1;
+}
+.three-line-nav-ul{
+    margin-top: 15%;
+    list-style-type: none;
+}
+.three-line-li{
+    margin-top: 10%;
+}
+.three-line-li-a{
+    text-decoration: none;
+    color: black;
+}
+/* Hidden Search Bar */
+.searchbar{
+    position: absolute;
+    background-color: white;
+    /* height: 40vh; */
+    padding: 5%;
+    z-index: 1;
+    top: 0;
+    /* padding-bottom: 1%; */
+    width: 87vw;
+}
+.searchbar-search{
+    width: 60vw;
+    position: absolute;
+    left: 20%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    background-image: url(../media/search-button.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 95%;
+}
+.searchbar-search:focus{
+    outline: none;
+}
+.searchbar-section{
+    color: black;
+}
+.searchbar-section:hover{color: orange;cursor:pointer;}
+.searchbar-cate{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    margin-top: 35px;
+}
+.serarchbar-li{
+    margin-top: 50px;
+}
+
+/* Main Box index */
+.main-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 14px;
+    color: gray;
+}
+.big-head-text{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(27, 25, 25);
+}
+.shop{
+    background-color: black;
+    color: white;
+    width: 1vw;
+    height: 1vh;
+    overflow: visible;
+    transition-duration: 2s;
+    color: black;
+    font-size: 15px;
+}
+.shop:hover{
+    width: 5vw;
+    height: 5vh;
+    color: white;
+}
+.img-add{
+    position: relative;
+    left: 10%;
+    width: 70vw;
+    z-index: 0;
+    /* position: 3; */
+}
+.img-img{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 166, 0, 0.141);
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    z-index: 0;
+}
+.text{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-weight: 900;
+    z-index: 0;
+}
+
+/* catelogs */
+.catelogs{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.partners-cate{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.up-part-cate{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1-cate{
+    width: 40vw;
+    height: 30vh;
+    background-image: url(../media/featured-h3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.box2-cate{
+    width: 35vw;
+    height: 30vh;
+    background-image: url(../media/featured2.jpg);
+    position: relative;
+}
+
+.box1-down{
+    margin-top: 5vh;
+    width: 80vw;
+    height: 30vh;
+    background-image: url(../media/cta-1.jpg);
+    background-repeat: no-repeat;   
+    background-size: contain;
+    position: relative;
+
+}
+.text-cate{
+    position: absolute;
+    top: 50%;
+    font-size: 15px;
+    color: gray;
+    height: 9vh;
+    overflow: hidden;
+    transition: 1s;
+    left: 5%;
+}
+.text-cate:hover{
+    top:40%;
+    overflow: visible;
+}
+.text-cate:hover .hover-text-cate{
+    color: orange;
+}
+.hover-text-cate{
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+.text-cate-down{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.hover-down-text{transition-duration: 1s;}
+.hover-down-text:hover{
+    color: orange;
+}
+
+/* product */
+.product{
+    width: 80vw;
+    margin-left: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-title-main{
+    width: 80vw;
+    margin-left: 10vw;
+    position: relative;
+}
+.product-title{
+    font-size: 25px;
+    font-weight: 900;
+}
+.product-title-bg{
+    color: #eaeaea;
+    position: absolute;
+    width: 500px;
+    top: -20px;
+    left: 40%;
+    font-size: 60px;
+    z-index: -1;
+}
+
+.product-card{
+    position: relative;
+    top: 10vh;
+    height: 20rem;
+    width: 20rem;
+    background-color: #f4f5f4;
+    background-image: url(../media/details-nav1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: 0.5s;
+    margin: 1%;
+}
+.productsss-card-show{
+    content: "<a>Hey</a>";
+    display: block;
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    z-index: 6;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition-duration: 1s;
+}
+.product-card:hover .productsss-card-show{
+    transform: scaleX(1);   
+}
+.product-card:hover{
+    background-color: #f8f8f8;
+    background-image: url(../media/details-nav3.png);
+}
+.product-title{
+    position: absolute;
+    bottom: 10%;
+}
+.product-price{
+    position: absolute;
+    bottom: 0;
+}
+
+/* after-product */
+.after-product{
+    width: 80vw;
+    margin-left: 10vw;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.free-ship{
+    /* width: 25vw; */
+    border-right: 3px solid black;
+    margin: 1%;
+    background-image: url(https://www.themelooks.net/demo/kinen/html/preview/assets/img/icons/car.svg);
+    background-repeat: no-repeat;
+    background-position-y: 3vh;
+    padding-left: 5vw;
+}
+.return-gar{
+    /* width: 25vw; */
+    border-right: 3px solid black;
+    margin: 1%;
+    background-image: url(https://www.themelooks.net/demo/kinen/html/preview/assets/img/icons/retry.svg);
+    background-repeat: no-repeat;
+    /* background-position-y: 3vh; */
+    padding-left: 5vw;
+}
+.easy-payment{
+    /* width: 25vw; */
+    /* border-right: 1px solid black; */
+    margin: 1%;
+    background-image: url(https://www.themelooks.net/demo/kinen/html/preview/assets/img/icons/card.svg);
+    background-repeat: no-repeat;
+    background-position-y: 3vh;
+    padding-left: 5vw;
+}
+
+
+.hover-effect-afp{
+    position: relative;
+    top: 150px;
+    height: 500px;
+    width: 80vw;
+    margin-left: 10vw;
+    /* padding-bottom: 200px; */
+}
+.ab1{
+    position: absolute;
+    left: 200px;
+    border: 4px solid white;
+    box-shadow: 0 0 5px 1px black;
+}
+.ab2{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    border: 4px solid white;
+    box-shadow: 0 0 5px 1px black;
+}
+.ab3{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    z-index: 6;
+    border: 4px solid white;
+    box-shadow: 0 0 5px 1px black;
+}
+.ab3:hover .ab1{
+    opacity: 0;
+}
